@@ -101,7 +101,13 @@ filetype plugin on
 
 ### Documentation
 
-Please see the vim help system for full documentation of all options: `:help nerdcommenter`
+To generate the vim help system documentation 
+
+```sh
+cd ~/.vim/bundle
+vim -c "helptags nerdcommenter/doc" -c q
+```
+The vim help system can then be used to access the full documentation of all options: `:help nerdcommenter`
 
 ### Settings
 
